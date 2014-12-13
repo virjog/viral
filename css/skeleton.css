@@ -28,8 +28,16 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face { font-family: "Source Code Pro"; src: url('./fonts/SourceCodePro-Regular.otf'); } 
-@font-face { font-family: "Source Code Pro"; font-weight: bold; src: url('./fonts/SourceCodePro-Bold.otf');}
+@font-face { 
+  font-family: "Source Code Pro"; 
+  src: url('./fonts/SourceCodePro-Regular.otf'); 
+} 
+
+@font-face { 
+  font-family: "Source Code Pro"; 
+  font-weight: bold; 
+  src: url('./fonts/SourceCodePro-Bold.otf');
+}
 
 .container {
   position: relative; 
@@ -107,7 +115,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Source Code Pro", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Code Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
