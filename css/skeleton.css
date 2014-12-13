@@ -28,11 +28,8 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face {
-  font-family: 'Source Code Pro';
-  src: url('fonts/sourcecodepro-regular.otf');
-  src: local('SourceCodePro-Regular'), local('SourceCodePro'), url('fonts/sourcecodepro-regular.otf') format('opentype');
-}
+@font-face { font-family: Source Code Pro; src: url('SourceCodePro-Regular.otf'); } 
+@font-face { font-family: Source Code Pro; font-weight: bold; src: url('SourceCodePro-Bold.otf');}
 
 .container {
   position: relative; 
