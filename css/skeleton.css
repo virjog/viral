@@ -28,7 +28,7 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face { 
+/* @font-face { 
   font-family: "Source Code Pro"; 
   src: url('./fonts/SourceCodePro-Regular.otf'); 
 } 
@@ -37,6 +37,26 @@
   font-family: "Source Code Pro"; 
   font-weight: bold; 
   src: url('./fonts/SourceCodePro-Bold.otf');
+} */
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('../fonts/sourcecodepro-regular-webfont.eot') format('eot'),
+        url('../fonts/sourcecodepro-regular-webfont.woff') format('woff'),
+        url('../fonts/sourcecodepro-regular-webfont.ttf') format('truetype'),
+        url('../fonts/sourcecodepro-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/sourcecodepro-bold-webfont.eot') format('eot'),
+        url('../fonts/sourcecodepro-bold-webfont.woff') format('woff'),
+        url('../fonts/sourcecodepro-bold-webfont.ttf') format('truetype'),
+        url('../fonts/sourcecodepro-bold-webfont.svg') format('svg');
 }
 
 
